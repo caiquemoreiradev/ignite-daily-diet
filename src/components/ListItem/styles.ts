@@ -38,7 +38,7 @@ const Circle = styled.View<Props>`
     height: 14px;
     position: absolute;
     right: 14px;
-    border-radius: 50%;
+    border-radius: 7px;
     background-color: ${({ theme, isActive }) => isActive ?
     theme.COLORS.PRODUCT.PRIMARY_MID : theme.COLORS.PRODUCT.SECONDARY_MID};
 `

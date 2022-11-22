@@ -5,6 +5,7 @@ const Container = styled.View`
 `
 
 const Header = styled.Text`
+    margin-bottom: 6px;
     ${({ theme }) => css`
         font-family: ${theme.FONTS.FAMILY.BOLD};
         font-size: ${theme.FONTS.SIZE.SM}px;
@@ -16,6 +17,7 @@ const Title = styled.TextInput`
     width: 100%;
     padding: 8px;
     border-radius: 6px;
+    margin-bottom: 4px;
     ${({ theme }) => css`
         font-family: ${theme.FONTS.FAMILY.REGULAR};
         font-size: ${theme.FONTS.SIZE.MD}px;

@@ -14,7 +14,9 @@ const Header = () => {
                     </S.Title>
                  </S.ContentTitle>
             </S.Content>
-            <S.Person />
+            <S.Person>
+                <S.PersonImage source={{ uri: 'https://avatars.githubusercontent.com/u/56305107?v=4' }} />
+            </S.Person>
         </S.Container>
     )
 }

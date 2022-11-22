@@ -9,9 +9,11 @@ type ButtonDietTypeStyleProps = {
 type Props = ButtonDietTypeStyleProps;
 
 const Container = styled.TouchableOpacity<Props>`
-    width: 160px;
+    width: 150px;
     height: 50px;
     border-radius: 6px;
+    margin-top: 16px;
+
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -36,7 +38,7 @@ const Icon = styled.View<Props>`
     width: 8px;
     height: 8px;
     margin-right: 8px;
-    border-radius: 50%;
+    border-radius: 4px;
     background-color: ${({ theme, type }) => type === 'PRIMARY' ?
         theme.COLORS.PRODUCT.PRIMARY_DARK : theme.COLORS.PRODUCT.SECONDARY_DARK
     };

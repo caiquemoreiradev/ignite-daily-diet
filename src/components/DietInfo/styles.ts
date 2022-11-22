@@ -22,7 +22,7 @@ const Icon = styled.View<Props>`
     width: 8px;
     height: 8px;
     margin-right: 10px;
-    border-radius: 50%;
+    border-radius: 4px;
     background-color: ${({ theme, isInDiet }) => isInDiet ?
     theme.COLORS.PRODUCT.PRIMARY_DARK : theme.COLORS.PRODUCT.SECONDARY_DARK};
 `

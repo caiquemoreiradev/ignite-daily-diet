@@ -20,6 +20,7 @@ const SubContent = styled.View``
 const MiniContainer = styled.View`
     flex-direction: row;
     justify-content: space-between;
+
 `
 
 const HeaderButtonsDiet = styled.Text`

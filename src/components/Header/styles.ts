@@ -32,7 +32,13 @@ const Person = styled.View`
     width: 40px;
     height: 40px;
     border: 1px solid  ${({ theme }) => theme.COLORS.BASE.GRAY_2};
-    border-radius: 50%;
+    border-radius: 20px;
 `
 
-export { Container, Content, Icon, ContentTitle, Title, Person };
+const PersonImage = styled.Image`
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+`;
+
+export { Container, Content, Icon, ContentTitle, Title, Person, PersonImage };

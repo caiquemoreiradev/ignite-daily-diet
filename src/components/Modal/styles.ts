@@ -77,6 +77,7 @@ const Button = styled.TouchableOpacity<Props>`
     height: 50px;
     border-radius: 6px;
     justify-content: center;
+    margin-top: 16px;
     align-items: center;
     ${({ theme, type, typeTwo }) => type === 'DARK' || typeTwo === 'DARK' ?
         css` background-color: ${theme.COLORS.BASE.GRAY_2}; `
